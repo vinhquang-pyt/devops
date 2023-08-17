@@ -36,6 +36,12 @@ REMOTE VỀ LOCAL
 LOCAL LÊN REMOTE
 -   Git push -u origin(alias link repo) dev(branch cần đẩy) #đẩy branch từ local lên remote
 
+REMOTE
+-   Để git không đẩy các file chỉnh định lên github
+-   Tạo file .gitignore, nhập tên file không đẩy lên github
+
+
+
 
 
 
