@@ -40,6 +40,12 @@ REMOTE
 -   Để git không đẩy các file chỉnh định lên github
 -   Tạo file .gitignore, nhập tên file không đẩy lên github
 
+REMOTE
+-   Để chỉnh sửa 1 dự án khác. Tao sao chép đường link dự án vào link trang cá nhân
+-   Chỉnh sửa và tạo pull request để tác giả dự án mình muốn chỉnh sửa
+
+
+
 
 
 
