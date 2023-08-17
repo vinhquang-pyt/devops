@@ -1,6 +1,6 @@
 # devops
 1.	Git
-LOCAL
+LOCAL - REMOTE
 -	Cài đặt Git
 -   Git --version #kiểm tra phiên bản git
 -   Git init #tạo repo dự án
@@ -12,7 +12,6 @@ LOCAL
 -   Git push "link repo" "branch" #đẩy repo lên github
 -	Git remote add origin “link repo” #tạo alias cho link repo
 -   Git push "alias link repo" branch #đấy repo với alias đã tạo
--	Git pull #repo dự án về
 -	Git branch -M main #cấu hình nhánh mặc định
 -	Git status #trạng thái dự án
 -	Git add . #lưu toàn bộ file vào vùng chuẩn bị(staging area)
@@ -27,5 +26,18 @@ LOCAL
 -   Git branch -b "tên branch" #tạo branch(cành) mới
 -   Git merge "tên branch" #tổng hợp các branch với nhau
 -   Git branch -d "tên branch" #xóa branch
+
+REMOTE VỀ LOCAL
+-   Git clone 'link repo' #tải dự repo từ remote về local
+-   Git fetch origin(alias link repo) # kiểm tra các branch trên remote
+-   Git checkout -b staging origin/staging #kéo branch trên remote về local
+-	Git pull #repo dự án về
+
+LOCAL LÊN REMOTE
+-   Git push -u origin(alias link repo) dev(branch cần đẩy) #đẩy branch từ local lên remote
+
+Test branch staging
+
+
 
 
