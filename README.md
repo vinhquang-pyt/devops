@@ -31,12 +31,10 @@ REMOTE VỀ LOCAL
 -   Git clone 'link repo' #tải dự repo từ remote về local
 -   Git fetch origin(alias link repo) # kiểm tra các branch trên remote
 -   Git checkout -b staging origin/staging #kéo branch trên remote về local
--	Git pull #repo dự án về
+-	Git pull #kéo toàn bộ thay đổi
 
 LOCAL LÊN REMOTE
 -   Git push -u origin(alias link repo) dev(branch cần đẩy) #đẩy branch từ local lên remote
-
-Test branch staging
 
 
 
